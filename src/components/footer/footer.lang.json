@@ -1,0 +1,16 @@
+{
+   "header": {
+      "title": {
+         "es": "Contacto",
+         "en": "Contact"
+      },
+      "developed": {
+         "es": "Desarrollado por ",
+         "en": "Desarrollado por "
+      },
+      "rights": {
+         "es": "DevopsLabs, Todos los Derechos Reservados",
+         "en": "DevopsLabs. Todos los Derechos Reservados"
+      }
+   }
+}

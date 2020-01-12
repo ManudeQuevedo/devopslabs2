@@ -1,0 +1,148 @@
+.banner-home {
+  background-image: url('../images/devopslabs.png');
+  background-repeat: repeat-x;
+  background-position: center;
+  background-size: cover;
+  animation: animatedBackground 120s linear infinite;
+  display: grid;
+  grid-template-columns: 1fr 1280px 1fr;
+  box-sizing: border-box;
+  grid-template-areas: '. content .';
+  height: 100vh;
+}
+
+.banner-home > .content-basic {
+  align-self: center;
+  justify-self: center;
+  text-align: center;
+}
+
+.banner-home > .content-basic > h1 {
+  font-family: 'Proza Libre', sans-serif;
+  font-size: 100px;
+  font-weight: 400;
+  color: #2c2c2c;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.banner-home > .content-basic > h2 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 127px;
+  font-weight: 700;
+  color: #2c2c2c;
+  margin: 0;
+}
+
+.buttom-banner {
+  display: inline-block;
+  margin: 85px 0 10px 0;
+}
+
+.bg-home {
+  background-image: linear-gradient(to right, #205072, #1b537a, #155682, #0c598a, #015c92);
+  padding: 20px 0;
+}
+
+.bg-team {
+  background-image: linear-gradient(to right, #f2f2f2, #ededed, #e8e8e8, #e4e4e4, #dfdfdf);
+}
+
+.home-subtitle {
+  font-family: 'Proza Libre', sans-serif;
+  font-size: 60px;
+  font-weight: 700 !important;
+}
+
+img.home-founder-image {
+  width: 600px;
+}
+
+.optional-links {
+  display: grid;
+  margin: 10px auto;
+  justify-items: center;
+}
+
+.learnMore > div > h1 {
+  color: #2c2c2c;
+  font-family: 'Proza Libre', sans-serif;
+  font-size: 48px;
+  margin: 20px 0;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.learnMore > div > .text {
+  color: #444c52;
+  font-size: 24px;
+}
+
+@keyframes animatedBackground {
+  from {
+    background-position-y: center;
+    background-position-x: left;
+  }
+
+  to {
+    background-position-y: center;
+    background-position-x: right;
+  }
+}
+
+@media only screen and (max-width: 1280px) {
+  .banner-home {
+    grid-template-columns: 1fr;
+  }
+
+  .readyToStart {
+    grid-column: 2;
+  }
+
+  .banner-home > .content-basic > h1,
+  .banner-home > .content-basic > h2 {
+    font-size: 40px;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .readyToStart {
+    display: none;
+  }
+
+  .buttom-banner {
+    width: auto;
+  }
+}
+
+@media only screen and (max-width: 720px) {
+  .banner-home > .content-basic > h1 {
+    font-size: 35px;
+    font-weight: 700;
+  }
+
+  .banner-home > .content-basic > h2 {
+    font-size: 50px;
+  }
+  
+  .learnMore > div > h1 {
+    color: #2c2c2c;
+    font-family: 'Proza Libre', sans-serif;
+    font-size: 35px;
+    margin: 20px 0 50px 0;
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  .learnMore > div > .text {
+    color: #444c52;
+    font-size: 16px;
+  }
+
+  img.home-founder-image {
+    border-radius: 5px;
+    margin: 0 auto;
+    width: 290px;
+  }  
+
+}

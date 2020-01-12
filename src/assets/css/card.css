@@ -1,0 +1,160 @@
+.card-a {
+  text-align: center;
+  box-sizing: border-box;
+  padding: 10px;
+}
+
+.card-a > h3 {
+  color: #2c2c2c;
+  font-family: 'Proza Libre', sans-serif;
+  font-size: 24px;
+  font-weight: 200;
+}
+
+.card-a > .text {
+  color: #2c2c2c;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.card-a > .image {
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+  display: block;
+}
+
+.card-a > .image:nth-of-child(1) {
+  background: url('../../assets/images/classroom.svg');
+}
+
+.card-a > .number {
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  font-size: 28px;
+  box-sizing: border-box;
+  border-radius: 50%;
+  border: 2px solid black;
+  display: inline-block;
+  margin: 0 auto;
+  margin-bottom: 25px;
+}
+
+.card-d {
+  display: grid;
+  justify-items: center;
+  padding: 20px;
+  position: relative;
+}
+
+.card-d:after,
+.card-d:before {
+  border: 10px solid #acc1d1;
+  content: '';
+  height: 50px;
+  width: 50px;
+  top: 22px;
+  position: absolute;
+  border-radius: 50%;
+  display: block;
+  z-index: -1;
+  opacity: 0;
+  animation: pulseOpacity 4s linear infinite;
+}
+
+.card-d:before {
+  border-color: #0280c2;
+  animation-delay: 2s;
+}
+
+.card-d > h3 {
+  color: #444c52;
+  font-size: 24px;
+}
+
+.card-d > .text {
+  color: #8e969b;
+  text-align: center;
+  font-size: 20px;
+}
+
+.card-e {
+  display: grid;
+  justify-items: center;
+}
+
+.card-e > .number {
+  width: 100px;
+  height: 100px;
+  border: 3px solid #fff;
+  line-height: 100px;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  color: #fff;
+  border-radius: 50px;
+}
+
+.card-e > h3 {
+  color: #fff;
+  font-size: 20px;
+}
+
+@keyframes waves {
+  0% {
+    opacity: 0;
+    transform: scale(0.1);
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    transform: scale(1);
+  }
+}
+
+@keyframes cardVanished {
+  from: {
+    opacity: 1;
+  }
+  to:  {
+    opacity: 0;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .buttom-banner {
+    width: auto;
+  }
+  .card-b {
+    grid-template-columns: 1fr;
+    padding: 20px 0;
+  }
+
+  .card-b > div:nth-child(1) > h1 {
+    font-size: 28px;
+    line-height: 28px;
+  }
+  .card-b > div:nth-child(2) {
+    display: none;
+  }
+  .card-c > .text {
+  }
+}
+
+@media only screen and (max-width: 720px) {
+  .card-e > h3 {
+    font-size: 18px;
+    font-weight: normal;
+  }
+  .card-e > .number {
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 20px;
+  }
+}

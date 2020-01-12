@@ -1,0 +1,112 @@
+.banner {
+  width: 100vw;
+  background-image: url('../images/devopslabs.png');
+  background-repeat: repeat-x;
+  background-position: center;
+  background-size: cover;
+  animation: animationBanner 120s linear infinite;
+  min-height: 400px;
+  box-sizing: border-box;
+  padding-top: 80px;
+  display: grid;
+  grid-template-columns: 1fr 1280px 1fr;
+}
+
+.banner > .wrapper {
+  display: grid;
+  grid-column: 2;
+  grid-template-columns: 1fr;
+  padding: 50px 0;
+}
+
+.banner > .wrapper > .info > h1 {
+  color: #2c2c2c;
+  font-family: 'Proza Libre', sans-serif;
+  font-size: 48px;
+}
+
+.banner > .wrapper > .info > .text {
+  color: #5e5d5d;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 40px 0;
+}
+
+.banner > .wrapper > .imagen {
+  justify-self: right;
+  position: relative;
+}
+
+.banner > .wrapper > .imagen:before,
+.banner > .wrapper > .imagen:after {
+  border: 35px solid #acc1d1;
+  content: '';
+  left: 40px;
+  right: 40px;
+  top: 40px;
+  bottom: 40px;
+  position: absolute;
+  border-radius: 50%;
+  display: block;
+  z-index: -1;
+  opacity: 0;
+  animation: wavesBanner 2s linear infinite;
+}
+
+.banner > .wrapper > .imagen:after {
+  border-color: #027fc2;
+  animation-delay: 0.5s;
+}
+
+@keyframes wavesBanner {
+  0% {
+    opacity: 0;
+    transform: scale(0.1);
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    transform: scale(1.5);
+  }
+}
+
+@keyframes animationBanner {
+  from {
+    background-position-y: center;
+    background-position-x: left;
+  }
+
+  to {
+    background-position-y: center;
+    background-position-x: right;
+  }
+}
+
+@media only screen and (max-width: 1280px) {
+  .banner {
+    grid-template-columns: 1fr;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .banner > .wrapper {
+    grid-column: 1;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .banner > .wrapper {
+    grid-template-columns: 1fr;
+  }
+  .banner > .wrapper > .imagen {
+    display: none;
+  }
+
+  .banner > .wrapper > .info > h1,
+  .banner > .wrapper > .info > h2 {
+    font-size: 30px;
+  }
+}

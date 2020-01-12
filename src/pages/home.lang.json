@@ -1,0 +1,72 @@
+{
+   "header": {
+      "title": {
+         "es": "Cursos en",
+         "en": "Cursos en"
+      },
+      "button": {
+         "es": "Nuestros cursos",
+         "en": "Nuestros cursos"
+      },
+      "subtitle": {
+         "es": "¡Cursos que te insertan en ",
+         "en": "¡Cursos que te insertan en "
+      },
+      "subtitle2": {
+         "es": "el mercado internacional!",
+         "en": "el mercado internacional!"
+      },
+      "paragraph1": {
+         "es": "Con nuestros cursos en Cloud Computing, Devops y herramientas relacionadas tendrás los conocimientos para tu carrera en el mercado local e internacional. Nuestros cursos utilizan la técnica de SRS - Spaced Repetition System, lo que permite rápida memorización de comandos y ejecución mas fácil con la practica.",
+         "en": "Con nuestros cursos en Cloud Computing, Devops y herramientas relacionadas tendrás los conocimientos para tu carrera en el mercado local e internacional. Nuestros cursos utilizan la técnica de SRS - Spaced Repetition System, lo que permite rápida memorización de comandos y ejecución mas fácil con la practica."
+      },
+      "paragraph2": {
+         "es": "Con una abordaje usando deliberative learning, el aprendizaje de conceptos, palabras clave y ejecución se tornan mas fluidas. Nuestro compromiso es prepararte a los retos del mercado internacional antes de tornaren se un patrón en el mercado. Es decir: sales en la frente, antes de la competencia!",
+         "en": "Con una abordaje usando deliberative learning, el aprendizaje de conceptos, palabras clave y ejecución se tornan mas fluidas. Nuestro compromiso es prepararte a los retos del mercado internacional antes de tornaren se un patrón en el mercado. Es decir: sales en la frente, antes de la competencia!"
+      }
+   },
+   "steps": {
+      "title": {
+         "es": "¿QUÉ ES DEVOPSLABS?",
+         "en": "¿QUÉ ES DEVOPSLABS?"
+      },
+      "text1": {
+         "es": "DevopsLabs es un instituto que surgió de la necesidad que un pasionado por la tecnologia tuvo en su propria carrera profesional. Rafael Nize, originario de Brasil, decidio una vez más cambiar su carrera hacia Cloud Computing y, un poco despues, a entender como los procesos en Devops se desarrollaban y eran implementados en las empresas.",
+         "en": "DevopsLabs es un instituto que surgió de la necesidad que un pasionado por la tecnologia tuvo en su propria carrera profesional. Rafael Nize, originario de Brasil, decidio una vez más cambiar su carrera hacia Cloud Computing y, un poco despues, a entender como los procesos en Devops se desarrollaban y eran implementados en las empresas."
+      },
+      "text2": {
+         "es": "Con años de experiencia en TI, Rafael tuvo como uno de sus retos mejorar los procesos de despliegue de aplicaciones y automatizar operaciones en empresas del sector de tiendas en linea, en Brasil y Mexico.",
+         "en": "Con años de experiencia en TI, Rafael tuvo como uno de sus retos mejorar los procesos de despliegue de aplicaciones y automatizar operaciones en empresas del sector de tiendas en linea, en Brasil y Mexico."
+      },
+      "learn": {
+         "title": {
+            "es": "Fundador DevopsLabs",
+            "en": "Fundador DevopsLabs"
+         },
+         "founderText1": {
+            "es": "Rafael Nize es un apasionado por tecnología desde muy temprano, en un tiempo que el Internet no era tan popular.",
+            "en": "Rafael Nize es un apasionado por tecnología desde muy temprano, en un tiempo que la Internet no era tan popular."
+         },
+         "founderText2": {
+            "es": "Con más de 18 años de experiencia en roles de TI, trabajo en distintos seguimientos en roles como desarrollador, administrador de sistemas, analista de infraestructura, analista de business intelligence.",
+            "en": "Con más de 18 años de experiencia en roles de TI, trabajo en distintos seguimientos en roles como desarrollador, administrador de sistemas, analista de infraestructura, analista de business intelligence."
+         },
+         "founderText3": {
+            "es": "Desde 2015 trabaja en proyectos en cloud, especialmente AWS desarrollando infraestructura como código, haciendo tuberías (pipelines) para despliegue de contenedores.",
+            "en": "Desde 2015 trabaja en proyectos en cloud, especialmente AWS desarrollando infraestructura como código, haciendo tuberías (pipelines) para despliegue de contenedores."
+         },
+         "founderText4": {
+            "es": "Ya trabajó en dos empresas consideradas innovadoras en Brasil y México. Además de startups, también trabajó por muchos años en grandes empresas.",
+            "en": "Ya trabajó en dos empresas consideradas innovadoras en Brasil y México. Además de startups, también trabajó por muchos años en grandes empresas."
+         },
+         "founderText5": {
+            "es": "Le gusta enseñar y tornar viables negocios por medio de la tecnología y por eso, ademàs de impartir cursos, también trabaja con un servicio de consultoría a PYMES y grandes empresas.",
+            "en": "Le gusta enseñar y tornar viables negocios por medio de la tecnología y por eso, además de impartir cursos, también trabaja con un servicio de consultoría a PYMES y grandes empresas."
+         },
+         "button": {
+            "es": "Próximos Eventos",
+            "en": "Próximos Eventos"
+         }
+      }
+   }
+}

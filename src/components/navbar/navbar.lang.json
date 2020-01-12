@@ -1,0 +1,22 @@
+{
+   "menu": {
+      "home": {
+         "es": "Inicio",
+         "en": "Inicio"
+      },
+      "courses": {
+         "es": "Cursos",
+         "en": "Cursos"
+      },
+      "events": {
+         "es": "Eventos",
+         "en": "Eventos"
+      },
+      "responsive": {
+         "menu": {
+            "es": "Menú",
+            "en": "Menú"
+         }
+      }
+   }
+}

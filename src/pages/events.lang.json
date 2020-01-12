@@ -1,0 +1,40 @@
+{
+   "header": {
+      "title": {
+         "es": "Próximos Eventos",
+         "en": "Próximos Eventos"
+      },
+      "subtitle": {
+         "es": "En DevopsLabs sabemos que una continua preparación es escencial para tu desarrollo, es por eso que hacemos eventos a los cuales puedes asistir con la finalidad de mantenerte actualizado.",
+         "en": "En DevopsLabs sabemos que una continua preparación es escencial para tu desarrollo, es por eso que hacemos eventos a los cuales puedes asistir con la finalidad de mantenerte actualizado."
+      },
+      "title2": {
+         "es": "¿Porqué asistir a nuestros Eventos?",
+         "en": "¿Porqué asistir a nuestros Eventos?"
+      },
+      "reason1": {
+         "es": "Nuevo conocimiento",
+         "en": "Nuevo conocimiento"
+      },
+      "reason2": {
+         "es": "Mejora tu CV",
+         "en": "Mejora tu CV"
+      },
+      "reason3": {
+         "es": "Mejores Oportunidades Laborales",
+         "en": "Mejores Oportunidades Laborales"
+      },
+      "textReason1": {
+         "es": "Con nuestra metodología de aprendizaje, podrás aprender los conceptos escenciales para ponerlos en práctica y convertirte en un master.",
+         "en": "Con nuestra metodología de aprendizaje, podrás aprender los conceptos escenciales para ponerlos en práctica y convertirte en un master."
+      },
+      "textReason2": {
+         "es": "Al dominar nuevas herramientas, puedes ponerlo en tu CV, esto hara que más reclutadores y empresas se interesen en tu perfil.",
+         "en": "Al dominar nuevas herramientas, puedes ponerlo en tu CV, esto hara que más reclutadores y empresas se interesen en tu perfil."
+      },
+      "textReason3": {
+         "es": "Nosotros te apoyamos y brindamos todo el conocimiento necesario para que puedas conseguir trabajo en mejores empresas con salarios mucho más altos.",
+         "en": "Nosotros te apoyamos y brindamos todo el conocimiento necesario para que puedas conseguir trabajo en mejores empresas con salarios mucho más altos."
+      }
+   }
+}
